@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class Average {
 
     public static void avg() {
-
         Scanner sc = new Scanner(System.in);
         System.out.println("계산할 1보다 큰 수를 입력하세요 : ");
         int num = sc.nextInt();
