@@ -11,7 +11,7 @@ public class Addition {
             int num1 = sc.nextInt();
             int num2 = sc.nextInt();
 
-            result = (int)num1 + (int)num2;
+            result = num1 + num2;
             System.out.println("덧셈 결과: " + result);
         }
     }
