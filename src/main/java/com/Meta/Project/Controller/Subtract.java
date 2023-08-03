@@ -23,8 +23,6 @@ public class Subtract {
                 System.out.println(plus2 - plus3);
             } else if (plus1.equalsIgnoreCase("N") || plus1.isEmpty()) {
                 break;
-//                System.out.println("종료");
-//                System.exit(0); // 리턴종료로 나중에 바꿔야함
 
             }else {
                 System.out.println("잘못 입력 했습니다 Y 또는 N 을 입력 해주세요");
