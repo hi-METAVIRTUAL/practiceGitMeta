@@ -6,7 +6,7 @@ public class CalController {
 
     Scanner sc = new Scanner(System.in);
     public void addition() {
-        System.out.println("덧셈할 정수 두개를 콤마(,)로 나눠서 입력 해주세요: ");
+        System.out.println("덧셈할 정수 두개를 띄워서 입력 해주세요: ");
 
         int result = 0;
         int num1 = sc.nextInt();
@@ -18,9 +18,20 @@ public class CalController {
 
     public void subtraction() {
 
+
+
+
+
     }
 
     public void division() {
+        System.out.println("곱셈할 정수 두개를 띄워서 입력 해주세요: ");
+
+        int result = 0;
+        int num = sc.nextInt();
+        int num2= sc.nextInt();
+
+
     }
 
     public void multiplication() {
