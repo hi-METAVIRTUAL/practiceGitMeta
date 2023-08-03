@@ -2,7 +2,7 @@ package com.Meta.Project.Controller;
 
 public class Sum {
 
-    public static void sum() {  
+    public static void sum() {
 
     }
 }
