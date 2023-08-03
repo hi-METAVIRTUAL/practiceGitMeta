@@ -31,7 +31,7 @@ public class Application {
             System.out.println("10. 최소 값 구하기");
             System.out.println("0. 프로그램 종료");
             System.out.println("계산기 번호를 입력하세용 : ");
-            int no = sc.nextInt();
+            int no = sc.nextInt(); 
 
 
             switch (no) {
