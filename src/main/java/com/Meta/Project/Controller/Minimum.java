@@ -7,7 +7,7 @@ public class Minimum {
     public static void min() {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("최소값을 구하고자하는");
+        System.out.println("최소값을 구하고자하는 정수 두개를 띄워서 입력해주세요: ");
 
         int result;
         int num1 = sc.nextInt();
