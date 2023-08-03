@@ -29,7 +29,7 @@ public class TimesTable {
 
             }else {
                 System.out.println("잘못 입력 했습니다 Y 또는 N 을 입력 해주세요");
-            }
+            } 
 
 
 
