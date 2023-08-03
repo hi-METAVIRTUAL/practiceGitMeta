@@ -13,11 +13,9 @@ import com.Meta.Project.Controller.Division;
 
 import java.util.Scanner;
 
-
 public class Application {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        CalController calController = new CalController();
 
         do {
             System.out.print("**메타 계산기**");
@@ -31,7 +29,7 @@ public class Application {
             System.out.println("8. n까지의 평균 구하기");
             System.out.println("9. 최대 값 구하기");
             System.out.println("10. 최소 값 구하기");
-            System.out.println("11. 프로그램 종료");
+            System.out.println("0. 프로그램 종료");
             System.out.println("계산기 번호를 입력하세용 : ");
             int no = sc.nextInt();
 
@@ -45,8 +43,8 @@ public class Application {
                 case 6: Sum.sum(); break;
                 case 7: TimesTable.nTimes(); break;
                 case 8: Average.avg(); break;
-                case 9: Minimum.min(); break;
-                case 10: Maximum.max(); break;
+                case 9: Maximum.max(); break;
+                case 10: Minimum.min(); break;
                 case 0: System.out.println("프로그램을 종료합니당ㅜㅜ\nbye."); return;
                 default: System.out.println("잘못된 계산기 번호입니다만?"); break;
             }
