@@ -12,6 +12,7 @@ public class Maximum {
 
         System.out.print("비교할 첫번째 수를 입력하세요 : ");
         input1 = sc.nextInt();
+        sc.nextLine();
         System.out.print("비교할 두번째 수를 입력하세요 : ");
         input2 = sc.nextInt();
 
